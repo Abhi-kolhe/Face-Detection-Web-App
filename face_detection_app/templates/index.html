@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Detection Web App</title>
+</head>
+<body>
+    <h1>Upload an Image for Face Detection</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Upload</button>
+    </form>
+    {% if image_url %}
+        <h2>Detected Faces: {{ faces_found }}</h2>
+        <img src="{{ image_url }}" alt="Detected Faces" width="400">
+    {% endif %}
+</body>
+</html>

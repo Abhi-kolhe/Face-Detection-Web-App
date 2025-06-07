@@ -14,13 +14,6 @@ A simple web application for real-time face detection using Python, OpenCV, and 
 
 ---
 
-## Demo
-
-![Demo Screenshot](static/demo_screenshot.png)  
-*(Replace with your actual screenshot if available)*
-
----
-
 ## Tech Stack
 
 - **Backend:** Python, Flask
